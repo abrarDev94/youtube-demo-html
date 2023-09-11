@@ -14,112 +14,50 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
+    <link rel="stylesheet" href="../styles/index.css" />
     <title>YouTube</title>
-    <link rel="icon" type="image/x-icon" href="yt icon.png" />
+    <link rel="icon" type="image/x-icon" href="../images/yticon.png" />
   </head>
   <body style="background-color: #0f0f0f">
-    <div class="nav master" style="width: 100%; display: flex">
-      <div
-        class="yt icon"
-        style="
-          width: 20%;
-
-          background-color: #0f0f0f;
-          display: flex;
-          align-items: center;
-        "
-      >
+    <div class="navtop">
+      <div class="navtopYtIcon">
         <div style="width: 30%">
           <a href="https://www.youtube.com/"
-            ><i
-              style="color: white; font-size: 25px; margin: 25px"
-              class="bi bi-justify"
-            ></i>
+            ><i class="bi bi-justify navtopiconjustify"></i>
           </a>
         </div>
         <div style="width: 70%; margin-top: 10px">
           <a href="https://www.youtube.com/"
-            ><img style="width: 150px" src="ytlogo.png"
+            ><img style="width: 150px" src="../images/ytlogo.png"
           /></a>
         </div>
       </div>
-      <div
-        class="yt searchbar"
-        style="
-          width: 60%;
+      <div class="navtopSearchbar">
+        <input class="navtopInput" type="text" placeholder="search" />
 
-          background-color: #0f0f0f;
-          align-self: center;
-        "
-      >
-        <input
-          style="
-            align-self: center;
-            margin-left: 60px;
-            width: 70%;
-
-            background-color: #121212;
-            border-top-left-radius: 50px;
-            border-bottom-left-radius: 50px;
-            border-right: none;
-            margin-top: 15px;
-          "
-          type="text"
-          placeholder="search"
-        />
-        <a href="https://www.youtube.com/">
-          <button
-            style="
-              background-color: #0f0f0f;
-              border-top-right-radius: 20px;
-              border-bottom-right-radius: 20px;
-              background-color: none;
-            "
-          >
-            <i class="bi bi-search" style="color: white"></i>
-          </button>
-          <button
-            style="
-              width: 40px;
-              height: 40px;
-              border-radius: 100px;
-              background-color: transparent;
-              margin-left: 10px;
-            "
-          >
-            <i class="bi bi-mic" style="color: white"></i></button
-        ></a>
+        <button class="navtopButtonSearch">
+          <i class="bi bi-search" style="color: white"></i>
+        </button>
+        <button class="navtopButtonmic">
+          <i class="bi bi-mic" style="color: white"></i>
+        </button>
       </div>
-      <div
-        class="yt acountseting"
-        style="
-          width: 20%;
-
-          background-color: #0f0f0f;
-          align-items: center;
-          display: flex;
-        "
-      >
+      <div class="navtopAccountSetting">
         <div style="width: 30%">
           <a href="https://www.youtube.com/upload"
-            ><i style="font-size: 25px; color: white" class="bi bi-upload"></i>
+            ><i class="bi bi-upload navtopicon"></i>
           </a>
         </div>
         <div style="width: 30%">
           <a href="https://www.youtube.com/account_notifications"
-            ><i style="font-size: 25px; color: white" class="bi bi-bell"></i>
+            ><i class="bi bi-bell navtopicon"></i>
           </a>
         </div>
         <div style="width: 40%">
           <a href="https://www.youtube.com/logout">
             <img
-              style="
-                width: 30px;
-                height: 30px;
-                border-radius: 30px;
-                margin-top: 10px;
-              "
-              src="abrar.lnk"
+              class="navtopaccountimg"
+              src="../images/IMG-20170703-WA0003.jpg"
           /></a>
         </div>
       </div>
@@ -127,159 +65,125 @@
     <div style="width: 100%; display: flex">
       <div style="width: 20%; background-color: #0f0f0f">
         <div style="align-items: center; display: flex">
-          <div style="width: 30%; padding-left: 27px">
-            <i
-              style="color: white; font-size: 25px"
-              class="bi bi-house-door-fill"
-            ></i>
+          <div class="leftPanelcont">
+            <i class="bi bi-house-door-fill leftPanelIcon"></i>
           </div>
-          <div style="width: 70%; padding-left: 23px">
-            <a
-              href="https://www.youtube.com/"
-              style="color: white; text-decoration: none"
-              >Home</a
-            >
+          <div class="leftpanelcontainer">
+            <a class="leftpaneltext" href="https://www.youtube.com/">Home</a>
           </div>
         </div>
-        <div style="align-items: center; display: flex">
-          <div style="width: 30%; padding-left: 27px; margin-top: 10px">
-            <i
-              style="color: white; font-size: 25px"
-              class="bi bi-file-play-fill"
-            ></i>
+        <div class="leftPanelelements">
+          <div class="leftPanelcont">
+            <i class="bi bi-file-play-fill leftPanelIcon"></i>
           </div>
-          <div style="width: 70%; padding-left: 23px">
+          <div class="leftpanelcontainer">
             <a
+              class="leftpaneltext"
               href="https://www.youtube.com/shorts/Lcogg1cqegQ"
-              style="color: white; text-decoration: none"
               >Shorts</a
             >
           </div>
         </div>
-        <div style="align-items: center; display: flex; margin-top: 10px">
-          <div style="width: 30%; padding-left: 27px">
-            <i style="color: white; font-size: 25px" class="bi bi-bell"></i>
+        <div class="leftPanelelements">
+          <div class="leftPanelcont">
+            <i class="bi bi-bell leftPanelIcon"></i>
           </div>
-          <div style="width: 70%; padding-left: 23px">
+          <div class="leftpanelcontainer">
             <a
+              class="leftpaneltext"
               href="https://www.youtube.com/feed/subscriptions"
-              style="color: white; text-decoration: none"
               >Subscriptions</a
             >
           </div>
         </div>
-        <hr style="font-weight: bolder" />
-        <div style="align-items: center; display: flex; margin-top: 10px">
-          <div style="width: 30%; padding-left: 27px">
-            <i
-              style="color: white; font-size: 25px"
-              class="bi bi-collection-play"
-            ></i>
+        <hr />
+        <div class="leftPanelelements">
+          <div class="leftPanelcont">
+            <i class="bi bi-collection-play leftPanelIcon"></i>
           </div>
-          <div style="width: 70%; padding-left: 23px">
-            <a
-              href="https://www.youtube.com/feed/library"
-              style="color: white; text-decoration: none"
+          <div class="leftpanelcontainer">
+            <a class="leftpaneltext" href="https://www.youtube.com/feed/library"
               >Library</a
             >
           </div>
         </div>
-        <div style="align-items: center; display: flex; margin-top: 10px">
-          <div style="width: 30%; padding-left: 27px">
-            <i
-              style="color: white; font-size: 25px"
-              class="bi bi-clock-history"
-            ></i>
+        <div class="leftPanelelements">
+          <div class="leftPanelcont">
+            <i class="bi bi-clock-history leftPanelIcon"></i>
           </div>
-          <div style="width: 70%; padding-left: 23px">
-            <a
-              href="https://www.youtube.com/feed/history"
-              style="color: white; text-decoration: none"
+          <div class="leftpanelcontainer">
+            <a class="leftpaneltext" href="https://www.youtube.com/feed/history"
               >History</a
             >
           </div>
         </div>
-        <div style="align-items: center; display: flex; margin-top: 10px">
-          <div style="width: 30%; padding-left: 27px">
-            <i
-              style="color: white; font-size: 25px"
-              class="bi bi-stopwatch"
-            ></i>
+        <div class="leftPanelelements">
+          <div class="leftPanelcont">
+            <i class="bi bi-stopwatch leftPanelIcon"></i>
           </div>
-          <div style="width: 70%; padding-left: 23px">
+          <div class="leftpanelcontainer">
             <a
+              class="leftpaneltext"
               href="https://www.youtube.com/playlist?list=WL"
-              style="color: white; text-decoration: none"
               >Watch later</a
             >
           </div>
         </div>
-        <div style="align-items: center; display: flex; margin-top: 10px">
-          <div style="width: 30%; padding-left: 27px">
-            <i
-              style="color: white; font-size: 25px"
-              class="bi bi-hand-thumbs-up"
-            ></i>
+        <div class="leftPanelelements">
+          <div class="leftPanelcont">
+            <i class="bi bi-hand-thumbs-up leftPanelIcon"></i>
           </div>
-          <div style="width: 70%; padding-left: 23px">
+          <div class="leftpanelcontainer">
             <a
+              class="leftpaneltext"
               href="https://www.youtube.com/playlist?list=LL"
-              style="color: white; text-decoration: none"
               >Liked videos</a
             >
           </div>
         </div>
         <hr />
-        <div style="align-items: center; display: flex; margin-top: 10px">
-          <div style="width: 30%; padding-left: 27px">
-            <i style="color: white; font-size: 25px" class="bi bi-gear"></i>
+        <div class="leftPanelelements">
+          <div class="leftPanelcont">
+            <i class="bi bi-gear leftPanelIcon"></i>
           </div>
-          <div style="width: 70%; padding-left: 23px">
-            <a
-              href="https://www.youtube.com/account"
-              style="color: white; text-decoration: none"
+          <div class="leftpanelcontainer">
+            <a class="leftpaneltext" href="https://www.youtube.com/account"
               >Settings</a
             >
           </div>
         </div>
-        <div style="align-items: center; display: flex; margin-top: 10px">
-          <div style="width: 30%; padding-left: 27px">
-            <i style="color: white; font-size: 25px" class="bi bi-flag"></i>
+        <div class="leftPanelelements">
+          <div class="leftPanelcont">
+            <i class="bi bi-flag leftPanelIcon"></i>
           </div>
-          <div style="width: 70%; padding-left: 23px">
+          <div class="leftpanelcontainer">
             <a
+              class="leftpaneltext"
               href="https://www.youtube.com/reporthistory"
-              style="color: white; text-decoration: none"
               >Report history</a
             >
           </div>
         </div>
-        <div style="align-items: center; display: flex; margin-top: 10px">
-          <div style="width: 30%; padding-left: 27px">
-            <i
-              style="color: white; font-size: 25px"
-              class="bi bi-question-circle"
-            ></i>
+        <div class="leftPanelelements">
+          <div class="leftPanelcont">
+            <i class="bi bi-question-circle leftPanelIcon"></i>
           </div>
-          <div style="width: 70%; padding-left: 23px">
+          <div class="leftpanelcontainer">
             <a
+              class="leftpaneltext"
               href="https://www.youtube.com/reporthistory"
-              style="color: white; text-decoration: none"
               >Help</a
             >
           </div>
         </div>
-        <div style="align-items: center; display: flex; margin-top: 10px">
-          <div style="width: 30%; padding-left: 27px">
-            <i
-              style="color: white; font-size: 25px"
-              class="bi bi-chat-left-quote-fill"
-            ></i>
+        <div class="leftPanelelements">
+          <div class="leftPanelcont">
+            <i class="bi bi-chat-left-quote-fill leftPanelIcon"></i>
           </div>
-          <div style="width: 70%; padding-left: 23px">
+          <div class="leftpanelcontainer">
             <a
+              class="leftpaneltext"
               href="https://www.youtube.com/reporthistory"
-              style="color: white; text-decoration: none"
               >Send feedback</a
             >
           </div>
@@ -287,282 +191,140 @@
       </div>
       <div style="width: 80%; justify-content: space-between">
         <div style="width: 100%; height: 8%; background-color: #0f0f0f">
-          <button
-            style="background-color: #383838; color: snow"
-            type="button"
-            class="btn btn-outline-dark"
-          >
+          <button type="button" class="btn btn-outline-dark navbarbutton">
             All
           </button>
-          <button
-            style="background-color: #383838; color: snow"
-            type="button"
-            class="btn btn-outline-dark"
-          >
+          <button type="button" class="btn btn-outline-dark navbarbutton">
             Mixes
           </button>
-          <button
-            style="background-color: #383838; color: snow"
-            type="button"
-            class="btn btn-outline-dark"
-          >
+          <button type="button" class="btn btn-outline-dark navbarbutton">
             Jennifer Music
           </button>
-          <button
-            style="background-color: #383838; color: snow"
-            type="button"
-            class="btn btn-outline-dark"
-          >
+          <button type="button" class="btn btn-outline-dark navbarbutton">
             Bollywood Music
           </button>
-          <button
-            style="background-color: #383838; color: snow"
-            type="button"
-            class="btn btn-outline-dark"
-          >
+          <button type="button" class="btn btn-outline-dark navbarbutton">
             HTML
           </button>
-          <button
-            style="background-color: #383838; color: snow"
-            type="button"
-            class="btn btn-outline-dark"
-          >
+          <button type="button" class="btn btn-outline-dark navbarbutton">
             Arabic Music
           </button>
-          <button
-            style="background-color: #383838; color: snow"
-            type="button"
-            class="btn btn-outline-dark"
-          >
+          <button type="button" class="btn btn-outline-dark navbarbutton">
             Alan Walker
           </button>
-          <button
-            style="background-color: #383838; color: snow"
-            type="button"
-            class="btn btn-outline-dark"
-          >
+          <button type="button" class="btn btn-outline-dark navbarbutton">
             Dance-Pop
           </button>
-          <button
-            style="background-color: #383838; color: snow"
-            type="button"
-            class="btn btn-outline-dark"
-          >
+          <button type="button" class="btn btn-outline-dark navbarbutton">
             Hip Hop
           </button>
-          <button
-            style="background-color: #383838; color: snow"
-            type="button"
-            class="btn btn-outline-dark"
-          >
+          <button type="button" class="btn btn-outline-dark navbarbutton">
             Action Movies
           </button>
         </div>
-        <div
-          style="
-            width: 100%;
-            height: 50%;
-            background-color: #0f0f0f;
-            display: flex;
-          "
-        >
-          <div
-            style="
-              width: 30%;
-              background-color: #0f0f0f;
-              height: 90%;
-              margin: 10px;
-            "
-          >
+        <div class="bodyDiv">
+          <div class="bodyMainCont">
             <img
-              style="border-radius: 10px; margin-left: 0"
-              src="zara zara behakta ha.jpg"
+              class="bodyImgElement"
+              src="../images/zara zara behakta ha.jpg"
             />
 
             <img
-              style="
-                width: 30px;
-                height: 30px;
-                border-radius: 30px;
-                margin: 5px;
-                margin-left: 0;
-              "
-              src="zara zara behakta ha.jpg"
+              class="bodyImgCont"
+              src="../images/zara zara behakta ha.jpg"
             /><a
+              class="bodyTextElement"
               href="https://www.youtube.com/watch?v=gntyeabLppw"
-              style="font-weight: bold; color: white; text-decoration: none"
               >Guli Mata - Official Video | Saad Lamjarred | Shreya Ghoshal |
               Jennifer Winget | Anshul Garg Kalaiya 6.9M views 1 month
-              <i
-                style="color: gray; margin-left: 5%"
-                class="bi bi-check-circle-fill"
+              <i class="bi bi-check-circle-fill verifyicon"></i
+            ></a>
+          </div>
+          <div class="bodyMainCont">
+            <img
+              class="bodyImgElement"
+              src="../images/zara zara behakta ha.jpg"
+            />
+            <img
+              class="bodyImgCont"
+              src="../images/zara zara behakta ha.jpg"
+            /><a
+              class="bodyTextElement"
+              href="https://www.youtube.com/watch?v=gntyeabLppw"
+              >Guli Mata - Official Video | Saad Lamjarred | Shreya Ghoshal |
+              Jennifer Winget | Anshul Garg Kalaiya 6.9M views 1 month<i
+                class="bi bi-check-circle-fill verifyicon"
               ></i
             ></a>
           </div>
-          <div
-            style="
-              width: 30%;
-              background-color: #0f0f0f;
-              height: 90%;
-              margin: 10px;
-            "
-          >
+          <div class="bodyMainCont">
             <img
-              style="border-radius: 10px; margin-left: 0"
-              src="zara zara behakta ha.jpg"
+              class="bodyImgElement"
+              src="../images/zara zara behakta ha.jpg"
             />
             <img
-              style="
-                width: 30px;
-                height: 30px;
-                border-radius: 30px;
-                margin: 5px;
-                margin-left: 0px;
-              "
-              src="zara zara behakta ha.jpg"
+              class="bodyImgCont"
+              src="../images/zara zara behakta ha.jpg"
             /><a
+              class="bodyTextElement"
               href="https://www.youtube.com/watch?v=gntyeabLppw"
-              style="font-weight: bold; color: white; text-decoration: none"
               >Guli Mata - Official Video | Saad Lamjarred | Shreya Ghoshal |
               Jennifer Winget | Anshul Garg Kalaiya 6.9M views 1 month<i
-                style="color: grey; margin-left: 5%"
-                class="bi bi-check-circle-fill"
-              ></i
-            ></a>
-          </div>
-          <div
-            style="
-              width: 30%;
-              background-color: #0f0f0f;
-              height: 90%;
-              text-decoration: none;
-              margin: 10px;
-            "
-          >
-            <img
-              style="border-radius: 10px; margin-left: 0"
-              src="zara zara behakta ha.jpg"
-            />
-            <img
-              style="
-                width: 30px;
-                height: 30px;
-                border-radius: 30px;
-                margin: 5px;
-                margin-left: 0px;
-              "
-              src="zara zara behakta ha.jpg"
-            /><a
-              href="https://www.youtube.com/watch?v=gntyeabLppw"
-              style="font-weight: bold; color: white; text-decoration: none"
-              >Guli Mata - Official Video | Saad Lamjarred | Shreya Ghoshal |
-              Jennifer Winget | Anshul Garg Kalaiya 6.9M views 1 month<i
-                style="color: grey; margin-left: 5%"
-                class="bi bi-check-circle-fill"
+                class="bi bi-check-circle-fill verifyicon"
               ></i
             ></a>
           </div>
         </div>
-        <div
-          style="
-            width: 100%;
-            height: 50%;
-            background-color: #0f0f0f;
-            display: flex;
-          "
-        >
-          <div
-            style="
-              width: 30%;
-              background-color: #0f0f0f;
-              height: 90%;
-              margin: 10px;
-            "
-          >
+        <div class="bodyDiv">
+          <div class="bodyMainCont">
             <img
-              style="border-radius: 10px; margin-left: 0"
-              src="zara zara behakta ha.jpg"
+              class="bodyImgElement"
+              src="../images/zara zara behakta ha.jpg"
             />
 
             <img
-              style="
-                width: 30px;
-                height: 30px;
-                border-radius: 30px;
-                margin: 5px;
-                margin-left: 0;
-              "
-              src="zara zara behakta ha.jpg"
+              class="bodyImgCont"
+              src="../images/zara zara behakta ha.jpg"
             /><a
+              class="bodyTextElement"
               href="https://www.youtube.com/watch?v=gntyeabLppw"
-              style="font-weight: bold; color: white; text-decoration: none"
               >Guli Mata - Official Video | Saad Lamjarred | Shreya Ghoshal |
               Jennifer Winget | Anshul Garg Kalaiya 6.9M views 1 month<i
-                style="color: grey; margin-left: 5%"
-                class="bi bi-check-circle-fill"
+                class="bi bi-check-circle-fill verifyicon"
               ></i
             ></a>
           </div>
-          <div
-            style="
-              width: 30%;
-              background-color: #0f0f0f;
-              height: 90%;
-              margin: 10px;
-            "
-          >
+          <div class="bodyMainCont">
             <img
-              style="border-radius: 10px; margin-left: 0"
-              src="zara zara behakta ha.jpg"
+              class="bodyImgElement"
+              src="../images/zara zara behakta ha.jpg"
             />
             <img
-              style="
-                width: 30px;
-                height: 30px;
-                border-radius: 30px;
-                margin: 5px;
-                margin-left: 0px;
-              "
-              src="zara zara behakta ha.jpg"
+              class="bodyImgCont"
+              src="../images/zara zara behakta ha.jpg"
             /><a
+              class="bodyTextElement"
               href="https://www.youtube.com/watch?v=gntyeabLppw"
-              style="font-weight: bold; color: white; text-decoration: none"
               >Guli Mata - Official Video | Saad Lamjarred | Shreya Ghoshal |
               Jennifer Winget | Anshul Garg Kalaiya 6.9M views 1 month<i
-                style="color: grey; margin-left: 5%"
-                class="bi bi-check-circle-fill"
+                class="bi bi-check-circle-fill verifyicon"
               ></i
             ></a>
           </div>
-          <div
-            style="
-              width: 30%;
-              background-color: #0f0f0f;
-              height: 90%;
-              text-decoration: none;
-              margin: 10px;
-            "
-          >
+          <div class="bodyMainCont">
             <img
-              style="border-radius: 10px; margin-left: 0"
-              src="zara zara behakta ha.jpg"
+              class="bodyImgElement"
+              src="../images/zara zara behakta ha.jpg"
             />
             <img
-              style="
-                width: 30px;
-                height: 30px;
-                border-radius: 30px;
-                margin: 5px;
-                margin-left: 0px;
-              "
-              src="zara zara behakta ha.jpg"
+              class="bodyImgCont"
+              src="../images/zara zara behakta ha.jpg"
             /><a
+              class="bodyTextElement"
               href="https://www.youtube.com/watch?v=gntyeabLppw"
-              style="font-weight: bold; color: white; text-decoration: none"
               >Guli Mata - Official Video | Saad Lamjarred | Shreya Ghoshal |
               Jennifer Winget | Anshul Garg Kalaiya 6.9M views 1 month<i
-                style="color: gray; margin-left: 5%"
-                class="bi bi-check-circle-fill"
+                class="bi bi-check-circle-fill verifyicon"
               ></i
             ></a>
           </div>
