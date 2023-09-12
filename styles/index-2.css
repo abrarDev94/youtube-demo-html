@@ -23,9 +23,10 @@
   background-color: #222222;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: none;
   width: 70px;
   height: 40px;
+  border: 2px solid gray;
+  margin: -5px;
 }
 .navtopButtonmic {
   width: 40px;
@@ -33,7 +34,9 @@
   border-radius: 100px;
   background-color: transparent;
   margin-left: 10px;
+  border: 2px solid gray;
 }
+
 .navtopInput {
   align-self: center;
   margin-left: 60px;
@@ -46,6 +49,7 @@
   border-right: none;
   margin-top: 15px;
   color: snow;
+  border: 2px solid gray;
 }
 .navtopSearchbar {
   width: 60%;
