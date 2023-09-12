@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../styles/index-2.css" />
+    <title>YouTube</title>
+    <link rel="icon" type="image/x-icon" href="../images/yticon.png" />
+
+    <style>
+      .container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      }
+
+      .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navtop">
+      <div class="navtopYtIcon">
+        <div style="width: 30%">
+          <a href="https://www.youtube.com/"
+            ><i class="bi bi-justify navtopiconjustify"></i>
+          </a>
+        </div>
+        <div style="width: 70%; margin-top: 10px">
+          <a href="https://www.youtube.com/"
+            ><img style="width: 150px" src="../images/ytlogo.png"
+          /></a>
+        </div>
+      </div>
+      <div class="navtopSearchbar">
+        <input class="navtopInput" type="text" placeholder="search" />
+
+        <button class="navtopButtonSearch">
+          <i class="bi bi-search" style="color: white"></i>
+        </button>
+        <button class="navtopButtonmic">
+          <i class="bi bi-mic" style="color: white"></i>
+        </button>
+      </div>
+      <div class="navtopAccountSetting">
+        <div style="width: 30%">
+          <a href="https://www.youtube.com/upload"
+            ><i class="bi bi-upload navtopicon"></i>
+          </a>
+        </div>
+        <div style="width: 30%">
+          <a href="https://www.youtube.com/account_notifications"
+            ><i class="bi bi-bell navtopicon"></i>
+          </a>
+        </div>
+        <div style="width: 40%">
+          <a href="https://www.youtube.com/logout">
+            <img
+              class="navtopaccountimg"
+              src="../images/IMG-20170703-WA0003.jpg"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <div style="width: 100%; background-color: blue; display: flex">
+      <div style="width: 3%; background-color: #0f0f0f">A</div>
+      <div style="width: 65%; background-color: blueviolet">
+        <div class="container">
+          <iframe
+            class="responsive-iframe"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY"
+          ></iframe>
+        </div>
+        <p style="color: white; font-size: 20px; background-color: #0f0f0f">
+          Bohemian Rhapsody | Muppet Music Video | The Muppets
+        </p>
+        <div style="background-color: red; display: flex; width: 100%">
+          <div style="width: 7%; background-color: blue">
+            <img style="border-radius: 30px" src="../images/muppet.jpg" />
+          </div>
+          <div style="width: 18%; background-color: red">
+            <div style="color: white">
+              The Muppets<br />
+              <div style="font-size: smaller">1.16M subscribers</div>
+            </div>
+          </div>
+          <div style="width: 30%; background-color: orange">
+            <button
+              style="
+                border-radius: 20px;
+                background-color: snow;
+                color: black;
+                margin-top: 5px;
+              "
+              type="button"
+              class="btn btn-secondary"
+            >
+              Subscribe
+            </button>
+          </div>
+          <div style="width: 45%; background-color: chartreuse"></div>
+        </div>
+        <div>
+          <p style="color: white">
+            2.1M views 3 years <br />
+            Official Music Video for “Without Me" from Acapop! KIDS - originally
+            performed by Halsey. Stream the song now at
+            https://acapopkids.lnk.to/withoutme …
+          </p>
+        </div>
+      </div>
+      <div style="width: 25%; background-color: brown">C</div>
+      <div style="width: 7%; background-color: chocolate">D</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+.navtop {
+  width: 100%;
+  display: flex;
+  background-color: #0f0f0f;
+}
+.navtopiconjustify {
+  margin: 25px;
+  font-size: 25px;
+  color: white;
+}
+.navtopicon {
+  font-size: 25px;
+  color: white;
+}
+.navtopAccountSetting {
+  width: 20%;
+
+  background-color: #0f0f0f;
+  align-items: center;
+  display: flex;
+}
+.navtopButtonSearch {
+  background-color: #222222;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: none;
+  width: 70px;
+  height: 40px;
+}
+.navtopButtonmic {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: transparent;
+  margin-left: 10px;
+}
+.navtopInput {
+  align-self: center;
+  margin-left: 60px;
+  width: 600px;
+  height: 40px;
+
+  background-color: #121212;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-right: none;
+  margin-top: 15px;
+  color: snow;
+}
+.navtopSearchbar {
+  width: 60%;
+
+  background-color: #0f0f0f;
+  align-self: center;
+}
+.navtopYtIcon {
+  width: 20%;
+
+  background-color: #0f0f0f;
+  display: flex;
+  align-items: center;
+}
+.navtopaccountimg {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
