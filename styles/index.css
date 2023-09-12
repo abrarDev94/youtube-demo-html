@@ -1,0 +1,130 @@
+.leftPanelIcon {
+  color: white;
+  font-size: 25px;
+  width: 30%;
+}
+.leftpaneltext {
+  color: white;
+  text-decoration: none;
+}
+.navbarbutton {
+  background-color: #383838;
+  color: snow;
+}
+.navtop {
+  width: 100%;
+  display: flex;
+}
+.navtopiconjustify {
+  margin: 25px;
+  font-size: 25px;
+  color: white;
+}
+.navtopicon {
+  font-size: 25px;
+  color: white;
+}
+.navtopAccountSetting {
+  width: 20%;
+
+  background-color: #0f0f0f;
+  align-items: center;
+  display: flex;
+}
+.navtopButtonSearch {
+  background-color: #222222;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: none;
+  width: 70px;
+  height: 40px;
+}
+.navtopButtonmic {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: transparent;
+  margin-left: 10px;
+}
+.navtopInput {
+  align-self: center;
+  margin-left: 60px;
+  width: 600px;
+  height: 40px;
+
+  background-color: #121212;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-right: none;
+  margin-top: 15px;
+  color: snow;
+}
+.navtopSearchbar {
+  width: 60%;
+
+  background-color: #0f0f0f;
+  align-self: center;
+}
+.navtopYtIcon {
+  width: 20%;
+
+  background-color: #0f0f0f;
+  display: flex;
+  align-items: center;
+}
+.navtopaccountimg {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.navtopaccountimg {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.leftPanelelements {
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+}
+.leftPanelcont {
+  width: 30%;
+  padding-left: 27px;
+}
+.leftpanelcontainer {
+  width: 70%;
+  padding-left: 23px;
+}
+.bodyImgElement {
+  border-radius: 10px;
+}
+.bodyImgCont {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin: 5px;
+  margin-left: 0;
+}
+.bodyMainCont {
+  width: 30%;
+  background-color: #0f0f0f;
+  height: 90%;
+  margin: 10px;
+}
+.verifyicon {
+  color: gray;
+  margin-left: 5%;
+}
+.bodyTextElement {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.bodyDiv {
+  width: 100%;
+  height: 50%;
+  background-color: #0f0f0f;
+  display: flex;
+}
